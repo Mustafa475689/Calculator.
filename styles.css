@@ -32,7 +32,7 @@ body {
     margin-left: 5px;
 }
 
-input {
+.input {
     width: 100%;
     outline: none;
     border: none;
@@ -133,4 +133,76 @@ button {
 
 .answer {
     background-color: rgb(204, 204, 101);
+}
+
+/* media queary */
+
+@media  (max-width: 1024px) {
+    .calculator {
+        height: 70%;
+    }   
+}
+
+
+@media  (max-width: 640px) {
+
+    .calculator {
+        height: 62%;
+    }
+
+    .input {
+        font-size: 1.75rem;
+        padding: 8px;
+    }
+    
+    button {
+        font-size: 18px;
+    }
+}
+
+
+@media  (max-width: 540px) {
+
+    .calculator {
+        height: 60%;
+    }
+
+    .input {
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+    
+    button {
+        font-size: 16px;
+    }
+}
+
+
+@media  (max-width: 470px) {
+
+    .calculator {
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+    .row {
+        width: 95%;
+        height: 25%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    
+    .input {
+        width: 95%;
+        font-size: 3rem;
+        padding-top: 20px;
+        padding: 12px;
+        color: white;
+    }
+    
+    button {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
 }
