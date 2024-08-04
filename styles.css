@@ -137,9 +137,15 @@ button {
 
 /* media queary */
 
+@media  (max-width: 1065px) {
+    .calculator {
+        height: 68%;
+    }   
+}
+
 @media  (max-width: 1024px) {
     .calculator {
-        height: 70%;
+        height: 68%;
     }   
 }
 
